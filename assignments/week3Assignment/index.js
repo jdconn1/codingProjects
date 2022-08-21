@@ -18,16 +18,15 @@ var average = ages.reduce((total, current) => total + current) / ages.length;
 
 console.log(average);
 
-
-function helloWorld() {
-    let statement = 'Hello World!';
+function myfunction() {
+    var statement = "Hello World.";
 
     function printHelloWorld() {
-        return statement;
+        return statement + " it's good to be alive."
     }
+    return printHelloWorld
 }
 
-console.log(helloWorld());
+var myfunc = myfunction();
 
-console.log(average);
-
+console.log(myfunc())
