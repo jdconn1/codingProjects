@@ -22,7 +22,7 @@ function myfunction() {
     var statement = "Hello World.";
 
     function printHelloWorld() {
-        return statement + " it's good to be alive."
+        return statement + " It's good to be alive."
     }
     return printHelloWorld
 }
