@@ -20,3 +20,14 @@ function average() {
 }
 
 console.log(average());
+
+
+function helloWorld() {
+    let statement = 'Hello World!';
+
+    function printHelloWorld() {
+        return statement;
+    }
+}
+
+console.log(helloWorld());
