@@ -12,3 +12,11 @@ console.log(subtract(ages));
 ages.push(73);
 
 console.log(subtract(ages));
+
+function average() {
+    for (let i = 0; i < ages.length; i++) {
+    var total = ages[i];
+} var average = total / ages;
+}
+
+console.log(average());
