@@ -13,20 +13,22 @@ ages.push(73);
 
 console.log(subtract(ages));
 
-var average = ages.reduce((total, current) => total + current) / ages.length;
+var average1 = ages.reduce((total, current) => total + current) / ages.length;
 
+console.log(average1);
 
-console.log(average);
-
-function myfunction() {
-    var statement = "Hello World.";
-
-    function printHelloWorld() {
-        return statement + " It's good to be alive."
+function average(array) {
+    var sum = 0;
+    for(var i = 0; i < array.length; i++) {
+        sum += array[i]
     }
-    return printHelloWorld
+    return sum / array.length;
 }
 
-var myfunc = myfunction();
+console.log(average(ages));
 
-console.log(myfunc())
+var names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
+
+var length = names.map(element => element.length);
+
+console.log(average(length));
