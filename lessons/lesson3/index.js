@@ -21,20 +21,20 @@
 
 // Functions
 
-function myFunction () {
-    for (let i = 0; i < 100; i++) {
-        console.log(i);
-    }
-}
-myFunction ();
+// function myFunction () {
+//     for (let i = 0; i < 100; i++) {
+//         console.log(i);
+//     }
+// }
+// myFunction ();
 
-function createFullName(firstName, LastName) {
-    return firstName + ' ' + LastName;
-}
+// function createFullName(firstName, LastName) {
+//     return firstName + ' ' + LastName;
+// }
 
-var fullName = createFullName("Joshua", "Conn");
+// var fullName = createFullName("Joshua", "Conn");
 
-console.log('Welcome, ' + fullName);
+// console.log('Welcome, ' + fullName);
 
 //// When naming a function you want to use a verb that describes exactly what the function does.
 
@@ -42,18 +42,18 @@ console.log('Welcome, ' + fullName);
 
 //Map function
 
-// let names = ['Sam', 'Tom', 'Eric', 'Sally', 'Nicholas' ];
-// let lengths = names.map(function (element) {
-//     return element.length;
-// });
-// console.log(lengths)
+let names = ['Sam', 'Tom', 'Eric', 'Sally', 'Nicholas' ];
+let lengths = names.map(function (array) {
+    return array.length;
+});
+console.log(lengths)
 
-// //Reduce funtion
+//Reduce funtion
 
-// let sum = lengths.reduce(function(accumulator, currentValue) {
-//     return accumulator + currentValue;
-// }, 10);
-// console.log(sum);
+let sum = lengths.reduce(function(accumulator, currentValue) {
+    return accumulator + currentValue;
+}, 10);
+console.log(sum);
 
 // //For Each function
 

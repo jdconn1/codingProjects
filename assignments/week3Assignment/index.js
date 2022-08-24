@@ -1,3 +1,4 @@
+// 1.
 var ages = [3, 9, 23, 64, 2, 8, 28, 93];
 
 function subtract(input) {
@@ -27,8 +28,41 @@ function average(array) {
 
 console.log(average(ages));
 
+// 2.
+
 var names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 
 var length = names.map(element => element.length);
 
 console.log(average(length));
+
+for (var i = 0; i < names.length; i++) {
+    console.log(names.join(' '));
+}
+
+// 3. To access the last element in an array you use array.length -1.
+// 4. To access the first element in an array you call the array like so array[0]. Since the array is in
+// the 0 base the first element will always be 0.
+
+// 5.
+
+var nameLengths = []
+
+var length2 = names.map(element => element.length);
+
+length2.forEach(element=> nameLengths.push(element));
+
+console.log(nameLengths);
+
+// 6.
+
+sum = 0;
+for ( let i = 0; i < nameLengths.length; i++) {
+    sum += nameLengths[i];
+}
+
+console.log(sum);
+
+
+
+
