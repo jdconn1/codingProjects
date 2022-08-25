@@ -16,10 +16,3 @@
 // with one parameter and one line of code.
 
 
-const cookIngredients= (cookIngredients) => {
-    const ingredients = ["flour", "butter", "milk", "cheese"];
-    let result = ingredients.forEach(ingredients => ingredients += "in the microwave");
-    return result
-}
-
-console.log(cookIngredients());
