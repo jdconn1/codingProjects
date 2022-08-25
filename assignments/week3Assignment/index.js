@@ -63,6 +63,19 @@ for ( let i = 0; i < nameLengths.length; i++) {
 
 console.log(sum);
 
+// 7.
+
+function returnWordXTimes(word, number) {
+    var result = '';
+    for (let i = 0; i < number; i++) {
+        result += word;
+    } return result;
+}
+
+console.log(returnWordXTimes(`Wow 
+- Owen Wilson.
+ `, 10));
+
 
 
 
