@@ -148,3 +148,8 @@ function willBuyDrink(isHotOutSide, moneyInPocket) {
 console.log(willBuyDrink(true, 11));
 console.log(willBuyDrink(false,23));
 console.log(willBuyDrink(true, 2));
+
+/** I wasn't sure if the boolean value this problem refers to was
+ * meant to pass in a a argument or not. I passed in the value as 
+ * an argument and it seems to work.
+*/
