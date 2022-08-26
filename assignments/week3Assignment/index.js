@@ -135,3 +135,16 @@ function twoArrayAverage(array1, array2) {
 }
 
 console.log(twoArrayAverage(array1, array2));
+
+// 12.
+
+function willBuyDrink(isHotOutSide, moneyInPocket) {
+    if (isHotOutSide == true && moneyInPocket > 10.5) {
+        return true;
+    } 
+    return false;
+}
+
+console.log(willBuyDrink(true, 11));
+console.log(willBuyDrink(false,23));
+console.log(willBuyDrink(true, 2));
