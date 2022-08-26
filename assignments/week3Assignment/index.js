@@ -54,9 +54,13 @@ length2.forEach(element=> nameLengths.push(element));
 
 console.log(nameLengths);
 
+// for (i = 0; i < names.length; i++) {'
+//      nameLength.push(name[i].length);
+// }
+
 // 6.
 
-sum = 0;
+let sum = 0;
 for ( let i = 0; i < nameLengths.length; i++) {
     sum += nameLengths[i];
 }
@@ -72,10 +76,62 @@ function returnWordXTimes(word, number) {
     } return result;
 }
 
-console.log(returnWordXTimes(`Wow 
-- Owen Wilson.
+console.log(returnWordXTimes(`"Wow" 
+   - Owen Wilson.
+
  `, 10));
 
+// 8.
 
 
+let fullName = (firstName, lastName) => `${firstName} ${lastName}`; 
 
+console.log(fullName("Jason", "Bourne"));
+
+// 9.
+
+function sumFunction(array) {
+    let sum = 0;
+    for(let i = 0; i < array.length; i++) {
+        sum += array[i]
+    }
+    return true == sum > 100;
+}
+
+console.log(sumFunction(ages));
+
+// 10.
+
+let array = [1, 2, 3, 56, 5, 70];
+
+function average2(array) {
+    var sum = 0;
+    for(var i = 0; i < array.length; i++) {
+        sum += array[i]
+    }
+    result = sum / array.length;
+    return result.toFixed(2);
+}
+
+console.log(average2(array));
+
+// I really just wanted to see if I could get the .toFixed to work with this function.
+
+// 11.
+
+let array1 = [1, 2, 3, 56, 5, 70];
+let array2 = [7, 8, 9, 19, 11, 22];
+
+function twoArrayAverage(array1, array2) {
+    let sum1 = 0;
+    for (let i = 0; i < array1.length; i++) {
+        sum1 += array1[i];
+    } sum1 / array1.length;
+    let sum2 = 0;
+    for (let i = 0; i < array2.length; i++) {
+        sum2 += array2[i];
+    } sum2 / array2.length;
+    return true == sum1 > sum2;
+}
+
+console.log(twoArrayAverage(array1, array2));
