@@ -5,7 +5,7 @@ function subtract(input) {
     let a = ages[ages.length - 1];
     let b = ages[0];
     input = a-b;
-    return input
+    return input;
 }
 
 console.log(subtract(ages));
@@ -21,7 +21,7 @@ console.log(average1);
 function average(array) {
     var sum = 0;
     for(var i = 0; i < array.length; i++) {
-        sum += array[i]
+        sum += array[i];
     }
     return sum / array.length;
 }
@@ -93,7 +93,7 @@ console.log(fullName("Jason", "Bourne"));
 function sumFunction(array) {
     let sum = 0;
     for(let i = 0; i < array.length; i++) {
-        sum += array[i]
+        sum += array[i];
     }
     return true == sum > 100;
 }
@@ -107,7 +107,7 @@ let array = [1, 2, 3, 56, 5, 70];
 function average2(array) {
     var sum = 0;
     for(var i = 0; i < array.length; i++) {
-        sum += array[i]
+        sum += array[i];
     }
     result = sum / array.length;
     return result.toFixed(2);
