@@ -153,3 +153,9 @@ console.log(willBuyDrink(true, 2));
  * meant to pass in a a argument or not. I passed in the value as 
  * an argument and it seems to work.
 */
+
+// 13.
+
+const addition = (num1, num2) => (num1 + num2) / Math.sqrt(num2);
+
+console.log(addition(0, 4));
