@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+    <!--This <script> tag is used to bring is other script languages to add
+    functionality to the page. In this case we're linking a javaScript file.-->
+  </head>
+  <body class="container">
+    <p>Hello World!</p>
+
+    <h1>Heading 1</h1>
+    <h3>Heading 3</h3>
+    <h6>Heading 6</h6>
+
+    <!--This is a comment in the code. Below is some html testing out differnt styling elements-->
+    <p>
+      Reagular text <b>bolded</b> <i>intalicized</i> <sup>superscript</sup
+      ><br />
+      more regular text.
+    </p>
+    <!--Testing out <br />-->
+    <a href="https://google.com">Take me to goolge.</a><br />
+    <a href="page2.html">Page2</a><br />
+    <a href="pages/page3.html">Page3</a><br />
+    <img src="test.jpg" />
+    <img
+      src="https://images.unsplash.com/photo-1615789591457-74a63395c990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwY2F0fGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    />
+    <!--These are lists.-->
+    <ol>
+      <li>Sally</li>
+      <li>Tommy</li>
+      <li>Sam</li>
+    </ol>
+    <!--The elements can also be other html elements it doesn't have 
+    to be a traditional type of list. Use the <ol> tag to use an ordered
+    list. Use the <ul> tag for an unordered list.-->
+    <ul>
+      <li>Apple</li>
+      <li>Bread</li>
+      <li>Eggs</li>
+    </ul>
+    <!--Above is an unordered list. This is used to imply there
+    is no order that is necessary. The style in which how these elements are displayed
+    can be changed using CSS. A table is a little more compicated to make.
+    This is because there is more that goes into making a teble than a list.-->
+    <!--These are tables.-->
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Apple</td>
+        <td>.35</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>Bread</td>
+        <td>2.35</td>
+        <td>12</td>
+      </tr>
+      <!--To start us the <table> tag. Then us the <tr> tag to add a table.
+        after the intial <tr> tag use the <td> tag to add data.-->
+    </table>
+    <div>
+      <h1>Div 1</h1>
+      <p>Div 1 paragraph</p>
+    </div>
+    <div>
+      <h1>Div 2</h1>
+      <p>Div 2 paragraph</p>
+    </div>
+    <p>
+      This is some text, <span>here is text inside a span</span>, and here is
+      some more text.
+    </p>
+    <!--The point of using the <div> tag is so we can target these specific element with CSS.
+    The same applies for <span>.-->
+    <!--Forms these are used for taking in input from a user. They are used to create 
+    buttons that allow users to input text, check boxes, and select specific options. they
+    dont always have to be used to the HTML forms.-->
+    <form>
+      <input type="text" name="firstName" placeholder="First Name" /><br />
+      <input type="text" name="lastName" placeholder="Last Name" /><br /><br />
+      Ice Cream Preference: <br />
+      <input type="radio" name="ice-cream" value="Chocolate" /> Chocolate <br />
+      <input type="radio" name="ice-cream" value="Vanilla" /> Vanilla <br />
+      <input type="radio" name="ice-cream" value="Swirl" /> Swirl <br />
+      <input type="submit" value="submit" /><br />
+    </form>
+    <button>Click Me!</button>
+  </body>
+</html>
